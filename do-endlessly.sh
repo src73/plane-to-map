@@ -5,7 +5,7 @@ while true; do
 
     echo "=== Running commands at $(date) ==="
 
-    ./run-the-thing.sh
+    ./delta-to-map.sh
     python3.11 timing-test.py
 
     echo "=== Done, sleeping again ==="
