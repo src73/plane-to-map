@@ -3,16 +3,16 @@ Plot your plane's location on a better map!
 
 These scripts talk to the internet equipment built into your airplane -- often giving you the location of your plane even when it can't connect to the internet -- and help you plot it on a high-fidelity map.
 
-![Screenshot of Plane to Map](screenshots/at%20lake%20tahoe.jpg)
+![Screenshot of Plane to Map](screenshots/plane-to-map-irl.jpeg)
 
 ## Setup
 
 ### On the ground
-1. **Download a map app on your Mac**. These scripts will open the location in your default `geo:` opener. I use Organic Maps, an iPad app that I install via the App Store.
+1. **Download a map app on your Mac**. These scripts will open the location in your default `geo:` opener. I use <a href='https://organicmaps.app/'>Organic Maps</a>, an iPad app that I install via the <a href='https://apps.apple.com/app/organic-maps/id1567437057'>App Store</a>.
 2. **Download the maps**. Don't forget to zoom in and download the regions you'll be flying over. In Organic Maps, you simply zoom in until it offers to download the region.
 3. **Test**. In your command line, run `open "geo:37.7749,-122.4194?z=7"`. It should open your map provider with a dot in San Francisco.
 
-_Note: you may need to install Python. This uses vanilla Python -- no need for anything fancy._
+_Note: you may need to install Python. This uses vanilla Python -- no need for any non-standard libraries._
 
 ### In the air
 1. **Get on a supported flight!** This code will only run when you're connected to the Wi-Fi on one of the supported airplanes.
