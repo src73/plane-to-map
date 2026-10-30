@@ -1,0 +1,5 @@
+# Scratch / reverse-engineering work. Contains captured session data --
+# keep it local, never commit it.
+junk-code/
+
+.DS_Store
