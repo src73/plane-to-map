@@ -32,7 +32,7 @@ There is no universal standard for planes sharing their location with connected 
 | Delta | "Free Global Wi-Fi" | `./delta-to-map.sh` |
 | United | not Starlink | `python3 united-to-map.py` |
 
-### Unsupported planes
+## Unsupported planes
 Supporting new types of planes is usually pretty straightforward. I'd often pay for the Wi-Fi and reverse engineer the web requests for the map in the browser. When I identified where the current location was available, I'd give that request to Claude and it would write the script.
 
 Selected unsupported flights:
