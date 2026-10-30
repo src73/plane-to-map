@@ -16,7 +16,7 @@ _Note: you may need to install Python. This uses vanilla Python -- no need for a
 
 ### In the air
 1. **Get on a supported flight!** This code will only run when you're connected to the Wi-Fi on one of the supported airplanes.
-2. **Identify the right script**. See the list below.
+2. **Identify the correct script**. See the list below.
 3. **Run it!** Open this directory in your terminal and run the one-liner from the list below. Re-run the script whenever you want to update the location.
 
 Tips:
