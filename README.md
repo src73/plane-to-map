@@ -8,9 +8,9 @@ These scripts talk to the internet equipment built into your airplane -- often g
 ## Setup
 
 ### On the ground
-1. **Download a map app on your Mac**. These scripts will open the location in your default `geo:` opener. I use <a href='https://organicmaps.app/'>Organic Maps</a>, an iPad app that I install via the <a href='https://apps.apple.com/app/organic-maps/id1567437057'>App Store</a>.
+1. **Download a map app on your Mac**. I use <a href='https://organicmaps.app/'>Organic Maps</a>, an iPad app that I install via the <a href='https://apps.apple.com/app/organic-maps/id1567437057'>App Store</a>.
 2. **Download the maps**. Don't forget to zoom in and download the regions you'll be flying over. In Organic Maps, you simply zoom in until it offers to download the region.
-3. **Test**. In your command line, run `open "geo:37.7749,-122.4194?z=7"`. It should open your map provider with a dot in San Francisco.
+3. **Test**. In your terminal, run `open "geo:37.7749,-122.4194?z=7"`. It should open your map provider with a dot in San Francisco.
 
 _Note: you may need to install Python. This uses vanilla Python -- no need for any non-standard libraries._
 
